@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.card {
+  background-image: url("../images/hotel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 100px;
+  text-align: right;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.sublabel {
+  color: gray;
+  margin: 4px;
+  font-size: 11px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0050a0;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-bg {
+  background-color: #f7f7f9;
+}
